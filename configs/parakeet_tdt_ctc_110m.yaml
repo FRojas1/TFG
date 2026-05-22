@@ -1,0 +1,11 @@
+model:
+  name: parakeet-tdt-ctc-110m
+  backend: nemo
+  model_id: nvidia/parakeet-tdt_ctc-110m
+
+# Hybrid FastConformer TDT-CTC (114M params) via NeMo.
+# Trained on 36K hours of English speech by NVIDIA + Suno.
+# Much smaller than the 1.1B variant — tests lightweight CTC performance.
+inference:
+  device: cuda
+  dtype: float16

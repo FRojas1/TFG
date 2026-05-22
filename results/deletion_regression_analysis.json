@@ -1,0 +1,247 @@
+{
+  "total_new_deletions": 17207,
+  "function_word_deletions": 9189,
+  "content_word_deletions": 8018,
+  "top_30_by_count": [
+    {
+      "word": "the",
+      "new_deletions": 1043,
+      "base_correct": 4542,
+      "regression_rate": 0.22963452223690003,
+      "ref_total": 5165,
+      "type": "function"
+    },
+    {
+      "word": "and",
+      "new_deletions": 759,
+      "base_correct": 3375,
+      "regression_rate": 0.2248888888888889,
+      "ref_total": 3684,
+      "type": "function"
+    },
+    {
+      "word": "to",
+      "new_deletions": 737,
+      "base_correct": 4176,
+      "regression_rate": 0.1764846743295019,
+      "ref_total": 4509,
+      "type": "function"
+    },
+    {
+      "word": "you",
+      "new_deletions": 477,
+      "base_correct": 2138,
+      "regression_rate": 0.22310570626753976,
+      "ref_total": 2332,
+      "type": "function"
+    },
+    {
+      "word": "in",
+      "new_deletions": 438,
+      "base_correct": 2103,
+      "regression_rate": 0.20827389443651925,
+      "ref_total": 2360,
+      "type": "function"
+    },
+    {
+      "word": "a",
+      "new_deletions": 342,
+      "base_correct": 1878,
+      "regression_rate": 0.18210862619808307,
+      "ref_total": 2194,
+      "type": "function"
+    },
+    {
+      "word": "that",
+      "new_deletions": 303,
+      "base_correct": 1557,
+      "regression_rate": 0.19460500963391136,
+      "ref_total": 1647,
+      "type": "function"
+    },
+    {
+      "word": "have",
+      "new_deletions": 277,
+      "base_correct": 1238,
+      "regression_rate": 0.22374798061389337,
+      "ref_total": 1325,
+      "type": "function"
+    },
+    {
+      "word": "they",
+      "new_deletions": 266,
+      "base_correct": 1059,
+      "regression_rate": 0.251180358829084,
+      "ref_total": 1218,
+      "type": "function"
+    },
+    {
+      "word": "time",
+      "new_deletions": 266,
+      "base_correct": 829,
+      "regression_rate": 0.3208685162846803,
+      "ref_total": 859,
+      "type": "content"
+    },
+    {
+      "word": "is",
+      "new_deletions": 249,
+      "base_correct": 1651,
+      "regression_rate": 0.15081768625075712,
+      "ref_total": 1999,
+      "type": "function"
+    },
+    {
+      "word": "of",
+      "new_deletions": 232,
+      "base_correct": 1533,
+      "regression_rate": 0.15133724722765818,
+      "ref_total": 1652,
+      "type": "function"
+    },
+    {
+      "word": "for",
+      "new_deletions": 222,
+      "base_correct": 1148,
+      "regression_rate": 0.19337979094076654,
+      "ref_total": 1236,
+      "type": "function"
+    },
+    {
+      "word": "i",
+      "new_deletions": 207,
+      "base_correct": 2904,
+      "regression_rate": 0.07128099173553719,
+      "ref_total": 3160,
+      "type": "function"
+    },
+    {
+      "word": "it",
+      "new_deletions": 205,
+      "base_correct": 910,
+      "regression_rate": 0.22527472527472528,
+      "ref_total": 1043,
+      "type": "function"
+    },
+    {
+      "word": "or",
+      "new_deletions": 205,
+      "base_correct": 854,
+      "regression_rate": 0.24004683840749413,
+      "ref_total": 921,
+      "type": "function"
+    },
+    {
+      "word": "your",
+      "new_deletions": 202,
+      "base_correct": 722,
+      "regression_rate": 0.27977839335180055,
+      "ref_total": 781,
+      "type": "function"
+    },
+    {
+      "word": "are",
+      "new_deletions": 188,
+      "base_correct": 954,
+      "regression_rate": 0.1970649895178197,
+      "ref_total": 1034,
+      "type": "function"
+    },
+    {
+      "word": "can",
+      "new_deletions": 167,
+      "base_correct": 1058,
+      "regression_rate": 0.15784499054820417,
+      "ref_total": 1146,
+      "type": "function"
+    },
+    {
+      "word": "will",
+      "new_deletions": 165,
+      "base_correct": 566,
+      "regression_rate": 0.2915194346289753,
+      "ref_total": 625,
+      "type": "function"
+    },
+    {
+      "word": "so",
+      "new_deletions": 152,
+      "base_correct": 725,
+      "regression_rate": 0.2096551724137931,
+      "ref_total": 763,
+      "type": "function"
+    },
+    {
+      "word": "my",
+      "new_deletions": 149,
+      "base_correct": 1156,
+      "regression_rate": 0.12889273356401384,
+      "ref_total": 1205,
+      "type": "function"
+    },
+    {
+      "word": "be",
+      "new_deletions": 146,
+      "base_correct": 703,
+      "regression_rate": 0.20768136557610242,
+      "ref_total": 750,
+      "type": "function"
+    },
+    {
+      "word": "because",
+      "new_deletions": 145,
+      "base_correct": 1103,
+      "regression_rate": 0.1314596554850408,
+      "ref_total": 1115,
+      "type": "content"
+    },
+    {
+      "word": "then",
+      "new_deletions": 142,
+      "base_correct": 297,
+      "regression_rate": 0.4781144781144781,
+      "ref_total": 335,
+      "type": "function"
+    },
+    {
+      "word": "with",
+      "new_deletions": 134,
+      "base_correct": 923,
+      "regression_rate": 0.14517876489707476,
+      "ref_total": 972,
+      "type": "function"
+    },
+    {
+      "word": "it's",
+      "new_deletions": 130,
+      "base_correct": 632,
+      "regression_rate": 0.20569620253164558,
+      "ref_total": 788,
+      "type": "function"
+    },
+    {
+      "word": "opinion",
+      "new_deletions": 129,
+      "base_correct": 283,
+      "regression_rate": 0.4558303886925795,
+      "ref_total": 289,
+      "type": "content"
+    },
+    {
+      "word": "acid",
+      "new_deletions": 127,
+      "base_correct": 340,
+      "regression_rate": 0.3735294117647059,
+      "ref_total": 415,
+      "type": "content"
+    },
+    {
+      "word": "this",
+      "new_deletions": 121,
+      "base_correct": 517,
+      "regression_rate": 0.23404255319148937,
+      "ref_total": 620,
+      "type": "function"
+    }
+  ]
+}

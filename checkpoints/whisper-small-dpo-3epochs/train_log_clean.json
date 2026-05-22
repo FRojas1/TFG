@@ -1,0 +1,75 @@
+{
+  "config": {
+    "model": {
+      "name": "whisper-small.en",
+      "backend": "whisper",
+      "model_id": "openai/whisper-small.en"
+    },
+    "inference": {
+      "device": "cuda",
+      "dtype": "float16"
+    }
+  },
+  "args": {
+    "config": "configs/whisper_small.yaml",
+    "train_flist": "info/sandi-corpus-2025/reference-materials/dpo-pool/finetune-train.tsv",
+    "val_flist": "info/sandi-corpus-2025/reference-materials/dpo-pool/finetune-val.tsv",
+    "data_root": "info/sandi-corpus-2025",
+    "train_dpo_pairs": "info/sandi-corpus-2025/reference-materials/dpo-pool/finetune-train-dpo.json",
+    "val_dpo_pairs": "info/sandi-corpus-2025/reference-materials/dpo-pool/finetune-val-dpo.json",
+    "output_dir": "checkpoints/whisper-small-dpo-3epochs-logsrun",
+    "val_stm": "info/sandi-corpus-2025/reference-materials/stms/train-asr.stm",
+    "val_annotations": "info/sandi-corpus-2025/reference-materials/annotations/train-trans-ref.json",
+    "val_gec_annotations": "info/sandi-corpus-2025/reference-materials/annotations/train-gec-ref.json",
+    "epochs": 3,
+    "lr": 5e-06,
+    "batch_size": 2,
+    "grad_accum": 8,
+    "lora_rank": 16,
+    "beta": 0.1,
+    "warmup_ratio": 0.1,
+    "dtype": "bf16",
+    "num_workers": 4,
+    "device": "cuda",
+    "max_val": 100
+  },
+  "log": [
+    {
+      "epoch": 0,
+      "loss": null,
+      "gep": 0.5756,
+      "wer": 0.03375347148045289
+    },
+    {
+      "epoch": 1,
+      "loss": 0.6878680381894673,
+      "gep": 0.6195,
+      "wer": 0.05362102114932707,
+      "chosen_reward": 0.04726602742960165,
+      "rejected_reward": -0.06180690633633073,
+      "reward_margin": 0.10907293376593238,
+      "accuracy": 0.6546310832025117
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6569471723243617,
+      "gep": 0.6976,
+      "wer": 0.06878872035889767,
+      "chosen_reward": 0.08317149115881328,
+      "rejected_reward": -0.6676117853616808,
+      "reward_margin": 0.750783276520494,
+      "accuracy": 0.8956043956043956
+    },
+    {
+      "epoch": 3,
+      "loss": 0.6360120873904116,
+      "gep": 0.7073,
+      "wer": 0.10745567186498611,
+      "chosen_reward": -0.08558556273743347,
+      "rejected_reward": -1.2886769026751794,
+      "reward_margin": 1.203091339937746,
+      "accuracy": 0.9356357927786499
+    }
+  ],
+  "best_gep": 0.7073
+}

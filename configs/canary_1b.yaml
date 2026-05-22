@@ -1,0 +1,11 @@
+model:
+  name: canary-1b
+  backend: nemo
+  model_id: nvidia/canary-1b
+
+# SALM architecture: FastConformer encoder + LLM decoder.
+# High risk of auto-correcting grammatical errors due to the LM decoder.
+# Requires: pip install nemo_toolkit[asr]
+inference:
+  device: cuda
+  dtype: float16

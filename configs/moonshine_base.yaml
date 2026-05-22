@@ -1,0 +1,11 @@
+model:
+  name: moonshine-base
+  backend: moonshine
+  model_id: UsefulSensors/moonshine-base
+
+# Moonshine Base (61.5M params) via HuggingFace transformers.
+# Encoder-decoder architecture optimised for low-resource / edge devices.
+# English-only, trained by Useful Sensors.
+inference:
+  device: cuda
+  dtype: float16

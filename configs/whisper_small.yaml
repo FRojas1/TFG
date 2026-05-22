@@ -1,0 +1,8 @@
+model:
+  name: whisper-small.en
+  backend: whisper
+  model_id: openai/whisper-small.en
+
+inference:
+  device: cuda
+  dtype: float16

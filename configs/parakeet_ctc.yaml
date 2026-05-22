@@ -1,0 +1,11 @@
+model:
+  name: parakeet-ctc-1.1b
+  backend: fastconformer_ctc
+  model_id: nvidia/parakeet-ctc-1.1b
+
+# FastConformer CTC (1.1B params) via HuggingFace Transformers.
+# CTC model trained on 64K hours of English speech by NVIDIA + Suno.
+# No language model decoder — purely acoustic, like Wav2Vec2 but much larger.
+inference:
+  device: cuda
+  dtype: float16

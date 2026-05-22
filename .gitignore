@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local dataset (not redistributable)
+data/
+info/
+
+# Model weights (download or train locally)
+checkpoints/**/*.safetensors
+checkpoints/**/model.safetensors
+checkpoints/**/adapter_model.safetensors

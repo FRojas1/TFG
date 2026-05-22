@@ -1,0 +1,11 @@
+model:
+  name: canary-180m-flash
+  backend: nemo
+  model_id: nvidia/canary-180m-flash
+
+# FastConformer encoder + Transformer decoder (182M params) via NeMo.
+# Multilingual (EN/DE/FR/ES) encoder-decoder with 17 encoder + 4 decoder layers.
+# Has a decoder LM component — expected to show some auto-correction behaviour.
+inference:
+  device: cuda
+  dtype: float16

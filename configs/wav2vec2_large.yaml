@@ -1,0 +1,11 @@
+model:
+  name: wav2vec2-large-960h
+  backend: wav2vec2
+  model_id: facebook/wav2vec2-large-960h
+
+# Wav2Vec2 CTC — no language model decoder, maps audio frames directly to
+# characters. Theoretically should preserve grammatical errors better than
+# seq2seq models since it relies on acoustics, not linguistic context.
+inference:
+  device: cuda
+  dtype: float32

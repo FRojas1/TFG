@@ -1,0 +1,323 @@
+{
+  "total_new_substitutions": 1581,
+  "total_new_deletions": 17384,
+  "top_20_regressed": [
+    {
+      "word": "the",
+      "count": 58,
+      "confusions": {
+        "a": 4,
+        "their": 3,
+        "that": 3,
+        "they": 2,
+        "to": 2,
+        "this": 2,
+        "there": 2,
+        "in": 2,
+        "wine": 2,
+        "you": 2
+      }
+    },
+    {
+      "word": "and",
+      "count": 50,
+      "confusions": {
+        "the": 4,
+        "to": 2,
+        "it": 2,
+        "on": 2,
+        "this": 2,
+        "in": 2,
+        "is": 2,
+        "am": 1,
+        "but": 1,
+        "routine": 1
+      }
+    },
+    {
+      "word": "it's",
+      "count": 42,
+      "confusions": {
+        "is": 34,
+        "to": 1,
+        "big": 1,
+        "the": 1,
+        "this": 1,
+        "it": 1,
+        "for": 1,
+        "i": 1,
+        "him": 1
+      }
+    },
+    {
+      "word": "to",
+      "count": 31,
+      "confusions": {
+        "the": 5,
+        "today": 3,
+        "time": 2,
+        "treat": 1,
+        "from": 1,
+        "if": 1,
+        "bus": 1,
+        "your": 1,
+        "do": 1,
+        "anxiety": 1
+      }
+    },
+    {
+      "word": "they",
+      "count": 30,
+      "confusions": {
+        "the": 8,
+        "to": 2,
+        "day": 2,
+        "in": 1,
+        "external": 1,
+        "you": 1,
+        "de": 1,
+        "travel": 1,
+        "year": 1,
+        "then": 1
+      }
+    },
+    {
+      "word": "a",
+      "count": 27,
+      "confusions": {
+        "some": 2,
+        "the": 2,
+        "work": 2,
+        "ex": 1,
+        "fall": 1,
+        "better": 1,
+        "do": 1,
+        "war": 1,
+        "is": 1,
+        "even": 1
+      }
+    },
+    {
+      "word": "is",
+      "count": 26,
+      "confusions": {
+        "it's": 8,
+        "he's": 2,
+        "the": 2,
+        "this": 2,
+        "no": 1,
+        "particles": 1,
+        "advantages": 1,
+        "moreover": 1,
+        "talk": 1,
+        "but": 1
+      }
+    },
+    {
+      "word": "in",
+      "count": 23,
+      "confusions": {
+        "and": 6,
+        "encounter": 2,
+        "on": 2,
+        "no": 1,
+        "will": 1,
+        "incorporate": 1,
+        "karanekarana": 1,
+        "when": 1,
+        "interest": 1,
+        "not": 1
+      }
+    },
+    {
+      "word": "their",
+      "count": 18,
+      "confusions": {
+        "the": 8,
+        "they": 1,
+        "a": 1,
+        "studies": 1,
+        "understand": 1,
+        "are": 1,
+        "your": 1,
+        "activities": 1,
+        "about": 1,
+        "and": 1
+      }
+    },
+    {
+      "word": "you",
+      "count": 18,
+      "confusions": {
+        "they": 2,
+        "to": 2,
+        "the": 2,
+        "just": 1,
+        "sunday": 1,
+        "and": 1,
+        "announce": 1,
+        "this": 1,
+        "three": 1,
+        "you've": 1
+      }
+    },
+    {
+      "word": "are",
+      "count": 18,
+      "confusions": {
+        "is": 2,
+        "the": 2,
+        "i": 2,
+        "some": 1,
+        "obtain": 1,
+        "year": 1,
+        "advantage": 1,
+        "and": 1,
+        "or": 1,
+        "mixed": 1
+      }
+    },
+    {
+      "word": "it",
+      "count": 16,
+      "confusions": {
+        "the": 3,
+        "it's": 2,
+        "yeah": 1,
+        "this": 1,
+        "university": 1,
+        "a": 1,
+        "from": 1,
+        "my": 1,
+        "student": 1,
+        "series": 1
+      }
+    },
+    {
+      "word": "can",
+      "count": 16,
+      "confusions": {
+        "to": 2,
+        "is": 2,
+        "as": 1,
+        "could": 1,
+        "it's": 1,
+        "i": 1,
+        "and": 1,
+        "don't": 1,
+        "have": 1,
+        "focused": 1
+      }
+    },
+    {
+      "word": "or",
+      "count": 15,
+      "confusions": {
+        "our": 2,
+        "of": 2,
+        "sometimes": 1,
+        "to": 1,
+        "not": 1,
+        "going": 1,
+        "pay": 1,
+        "police": 1,
+        "dinner": 1,
+        "outside": 1
+      }
+    },
+    {
+      "word": "i",
+      "count": 15,
+      "confusions": {
+        "i'm": 4,
+        "the": 2,
+        "any": 2,
+        "aliment": 1,
+        "classroom": 1,
+        "advantage": 1,
+        "if": 1,
+        "my": 1,
+        "disadvantages": 1,
+        "it": 1
+      }
+    },
+    {
+      "word": "be",
+      "count": 14,
+      "confusions": {
+        "being": 1,
+        "bring": 1,
+        "might": 1,
+        "at": 1,
+        "we": 1,
+        "the": 1,
+        "spend": 1,
+        "of": 1,
+        "in": 1,
+        "put": 1
+      }
+    },
+    {
+      "word": "that",
+      "count": 13,
+      "confusions": {
+        "the": 3,
+        "but": 2,
+        "there": 2,
+        "work": 1,
+        "you": 1,
+        "us": 1,
+        "them": 1,
+        "should": 1,
+        "7th": 1
+      }
+    },
+    {
+      "word": "for",
+      "count": 13,
+      "confusions": {
+        "is": 2,
+        "you": 2,
+        "studies": 2,
+        "foretaking": 1,
+        "from": 1,
+        "our": 1,
+        "this": 1,
+        "pay": 1,
+        "in": 1,
+        "because": 1
+      }
+    },
+    {
+      "word": "acid",
+      "count": 13,
+      "confusions": {
+        "the": 5,
+        "tea": 1,
+        "a": 1,
+        "exit": 1,
+        "as": 1,
+        "ester": 1,
+        "accident": 1,
+        "this": 1,
+        "you": 1
+      }
+    },
+    {
+      "word": "students",
+      "count": 13,
+      "confusions": {
+        "student": 2,
+        "studies": 1,
+        "of": 1,
+        "is": 1,
+        "could": 1,
+        "take": 1,
+        "more": 1,
+        "should": 1,
+        "years": 1,
+        "advantage": 1
+      }
+    }
+  ]
+}
