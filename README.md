@@ -21,7 +21,7 @@ Bachelor's thesis (TFG) project: evaluating whether automatic speech recognition
 
 The **Speak & Improve Corpus 2025** is not included in this repository (license / size). Obtain it from the official distribution:
 
-1. Register and download from the [Speak & Improve Challenge / Codabench](https://www.codabench.org/competitions/10260/) page linked in the corpus paper.
+1. Register and download from the [Speak & Improve Corpus 2025](https://researchdatasets.cambridge.org/datasets/speak-and-improve-corpus-2025) page.
 2. Extract the archive and set the corpus root, e.g.:
 
 ```bash
@@ -102,7 +102,7 @@ typst compile main-en.typ ../memoria.pdf
 
 ## Citation
 
-If you use this code or methodology, please cite the Speak & Improve corpus and the thesis author as indicated in `memoria.pdf`.
+If you use this code or methodology, please cite the Speak & Improve corpus and myself, Felipe Rojas as indicated in `memoria.pdf`.
 
 ## License
 
